@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "types": ["vite/client","node", "element-plus/global"],
+    "typeRoots": [ "../node_modules/@types" ],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/router/modules/component.js", "src/router/modules/community.js", "src/router/modules/chart.js", "src/router/modules/document.js", "src/router/modules/tab.js", "src/router/modules/systemManage.js", "src/router/modules/print.js", "src/router/modules/pages.js", "src/router/modules/menu.js", "src/router/modules/directive.js", "src/views/main/document/dir.js", "src/components/tinymce/toolbar.js", "src/components/tinymce/plugins.js", "src/components/tinymce/dynamicLoadScript.js", "src/views/main/pages/crudTable/enum.js", "src/api/system/user.js", "src/api/card.js", "src/api/table.js", "src/api/work.js", "src/views/main/pages/treeTable/enum.js", "src/views/main/pages/categoryTable/enum.js"]
+}
